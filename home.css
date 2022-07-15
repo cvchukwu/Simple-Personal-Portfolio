@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url(./images/man\ with\ laptop\ in\ darkness.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: right;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 3% 3% 3% 5%;
+}
+
+.home-main {
+    margin:7%;
+}
+.home-main h1{
+    color: rgb(216, 8, 36);
+    font-size: 8rem;
+}
+.home-main span, h4,h3{
+    color: white;
+}
+.home-main h3{
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-left: 1.5rem;
+}
+.home-main h4{
+    font-size: 2rem;
+    margin-left: 22rem;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+}
+
+.nav-items li:nth-of-type(1) {
+    margin-left: 400px;
+    border-bottom: 5px yellow solid;
+    border-radius: 0px;
+}
+
+.nav-items li:nth-of-type(2) {
+    margin-left: 40px;
+    
+
+}
+
+.nav-items li:nth-of-type(3) {
+    margin-left: 40px;
+
+}
+
+.nav-items li:nth-of-type(4) {
+    margin-left: auto;
+}
+
+.nav-items li:nth-of-type(5) {
+    background-color: rgb(216, 8, 36);
+    border-radius: 10px;
+}
+
+.nav-bar {
+    height: 5rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.logo span{
+    color: rgb(216, 8, 36);
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    padding: 3px 8px;
+}
+.nav-items li a:hover {
+    border-bottom: 2px red solid;
+    border-radius: 0px;
+}
+.nav-items li a:active{
+    color: yellow;
+    background-color: transparent;
+}
+
+.home-button{
+    color: white;
+    background-color: rgb(216, 8, 36);
+    border-radius: 2em;
+    box-shadow: 0 0 2px 5px rgba(150, 131, 134, 0.792);
+    margin-left: 50%;
+    margin-top: 2rem;
+    padding: 12px;
+    right: 40%;
+    bottom: 2;
+    padding: 20px;
+    text-decoration: none;
+    position: absolute;
+    font-weight: 700;
+}
+.home-button:active{
+    background-color: grey;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    opacity: 50%;
+}
+
+footer a {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+}
+
+footer a:not(:last-child) {
+    margin-right: 60px;
+}
+
+footer a:hover {
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 600px) {
+    .home-main {
+        margin: 2rem;
+        width: 80%;
+        padding: 10px;
+    }
+
+    .home-main h1 {
+        color: rgb(216, 8, 36);
+        font-size: 5rem;
+    }
+
+    .home-main h3 {
+        font-size: 0.78rem;
+        font-style: italic;
+        letter-spacing: 2px;
+        margin-left: 1rem;
+    }
+
+    .home-main h4 {
+        font-size: 1.2rem;
+        margin-left: 13.3rem;
+
+    }
+}

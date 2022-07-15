@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url(./images/man\ with\ laptop\ in\ darkness.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: right;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 3% 3% 3% 5%;
+}
+.contact-main {
+    margin: auto;
+    background-color: rgba(126, 125, 125, 0.468);
+    width: 30%;
+    height: 25%;
+    padding: 2rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+#contact-name{
+    color: white;
+}
+#contact-emailheading {
+    width: 85%;
+    padding: 0.1rem;
+    color: white;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#contact-email{
+  color: black;
+}
+#first-name {
+    width: 85%;
+    padding: 0.1rem;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#last-name {
+    width: 85%;
+    padding: 0.1rem;
+    margin-left: 3rem;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.contact-button {
+    color: white;
+    background-color: rgb(216, 8, 36);
+    margin: 2rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 5rem;
+    box-shadow: 0 0 2px 5px rgba(150, 131, 134, 0.792);
+    border: none;
+}
+
+.contact-button:active {
+    background-color: grey;
+}
+textarea{
+    overflow-y: scroll;
+    resize: none;
+    width: 25rem;
+}
+
+
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.logo span {
+    color: rgb(216, 8, 36);
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+}
+.nav-items a:active {
+    color: yellow;
+    background-color: transparent;
+}
+.nav-bar{
+    display: flex;
+    flex-grow: 1;
+}
+
+.nav-items li:nth-of-type(1) {
+    margin-left: 400px;
+}
+
+.nav-items li:nth-of-type(2) {
+    margin-left: 40px;
+}
+
+.nav-items li:nth-of-type(3) {
+    margin-left: 40px;
+    border-bottom: 5px yellow solid;
+    border-radius: 0px;
+}
+
+.nav-items li:nth-of-type(4) {
+    margin-left: auto;
+}
+
+.nav-items li:nth-of-type(5) {
+    background-color: rgb(216, 8, 36);
+    border-radius: 10px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    padding: 3px 8px;
+}
+
+.nav-items li a:hover {
+    border-bottom: 2px red solid;
+    border-radius: 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    opacity: 50%;
+}
+
+footer a {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+}
+
+footer a:not(:last-child) {
+    margin-right: 60px;
+}
+
+footer a:hover {
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-main {
+        margin: 2rem;
+        width: 80%;
+        padding: 10px;
+    }
+
+    .contact-main h1 {
+        color: rgb(216, 8, 36);
+        font-size: 5rem;
+    }
+
+    .contact-main h3 {
+        font-size: 0.78rem;
+        font-style: italic;
+        letter-spacing: 2px;
+        margin-left: 1rem;
+    }
+
+    .contact-main h4 {
+        font-size: 1.2rem;
+        margin-left: 13.3rem;
+    }
+}

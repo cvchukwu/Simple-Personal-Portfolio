@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url(./images/man\ with\ laptop\ in\ darkness.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: right;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 3% 3% 3% 5%;
+}
+
+.registration-main {
+    margin: auto;
+    background-color:rgba(170, 57, 72, 0.264);
+    width: 40%;
+    height: 20%;
+    padding: 1rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+#contact-name {
+    color: white;
+}
+
+#contact-email {
+    width: 65%;
+    color: white;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.name{
+    color: white;
+    margin-left: 1.5rem;
+}
+#first-name {
+    width: 65%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#last-name {
+    width: 65%;
+    margin-left: 4.5rem;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.phone{
+    color: white;
+    margin-left: 1.5rem;
+}
+.number{
+    width: 65%;
+    margin-left: 0.5%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.gender{
+    color: white;
+    margin-left: 0.8rem;
+}
+.gender-dropdown{
+    width: 65%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.country{
+    color: white;
+    margin-left: 0.5rem;
+}
+#country-box{
+    width: 64%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.State{
+    color: white;
+    margin-left: 2rem;
+}
+.province{
+    width: 65%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.password{
+    color: white;
+}
+.password-box{
+    width: 65.3%;
+    margin-left: 0.2rem;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.password-box2{
+    width: 65%;
+    margin-left: 4.5rem;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.email{
+    color: white;
+    margin-left: 1.5rem;
+}
+#email-box{
+    width: 65%;
+    margin-left: 0.5%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.reg-button {
+    color: white;
+    background-color: rgb(216, 8, 36);
+    margin: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 5rem;
+    box-shadow: 0 0 2px 5px rgba(150, 131, 134, 0.792);
+    border: none;
+}
+
+.reg-button:active {
+    background-color: grey;
+}
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.logo span {
+    color: rgb(216, 8, 36);
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+}
+.nav-items a:active {
+    color: yellow;
+    background-color: transparent;
+}
+.nav-items li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    padding: 3px 8px;
+}
+.nav-items li a:hover {
+    border-bottom: 2px red solid;
+    border-radius: 0px;
+}
+.nav-items li:nth-of-type(1) {
+    margin-left: 400px;
+
+}
+
+.nav-items li:nth-of-type(2) {
+    margin-left: 40px;
+
+}
+
+.nav-items li:nth-of-type(3) {
+    margin-left: 40px;
+
+}
+
+.nav-items li:nth-of-type(4) {
+    margin-left: auto;
+    border-bottom: 5px solid yellow;
+    border-radius: 0px;
+}
+
+.nav-items li:nth-of-type(5) {
+    background-color: rgb(216, 8, 36);
+    border-radius: 10px;
+}
+
+.nav-bar {
+    height: 5rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    opacity: 50%;
+}
+
+footer a {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+}
+
+footer a:not(:last-child) {
+    margin-right: 60px;
+}
+
+footer a:hover {
+    transform: scale(1.5);
+}
+@media only screen and (max-width: 600px) {
+    .registration-main {
+        margin: 2rem;
+        width: 80%;
+        padding: 10px;
+    }
+}

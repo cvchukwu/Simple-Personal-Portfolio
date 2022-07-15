@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a class="logo" class="logo" href="#">Coder<span>holic.</span></a>
+        <nav class="nav-bar">
+            <ul class="nav-items">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="./registration.html">Registration</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact-main">
+        <form action="#">
+            <label id="contact-name">Name:</label>
+            <input type="text" placeholder="First Name" id="first-name" required><br><br>
+            <input type="text" placeholder="Last Name" id="last-name" required><br><br>
+            
+            <label id="contact-emailheading">Email:</label>
+            <input id="contact-email" type="email" placeholder="e.g: johndoe@gmail.com" required><br><br>
+
+            <textarea id="contact-textarea" placeholder="Enter your message here..." rows="10" cols="30"></textarea><br>
+            <button class="contact-button">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </footer>
+</body>
+</html>
